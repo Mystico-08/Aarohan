@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import 'PDF.css'
+import './PDF.css'
 
 pdfjs.GlobalWorkerOptions.workerSrc =
   `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
